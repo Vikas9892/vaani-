@@ -1,0 +1,98 @@
+probe_rpm_sustained-000 ok 397 397 remaining_tokens=7924 remaining_requests=844
+probe_rpm_sustained-001 ok 962 962 remaining_tokens=7924 remaining_requests=843
+probe_rpm_sustained-002 ok 874 874 remaining_tokens=7924 remaining_requests=842
+probe_rpm_sustained-003 ok 424 424 remaining_tokens=7924 remaining_requests=841
+probe_rpm_sustained-004 ok 418 418 remaining_tokens=7924 remaining_requests=840
+probe_rpm_sustained-005 ok 422 422 remaining_tokens=7924 remaining_requests=839
+probe_rpm_sustained-006 ok 209 209 remaining_tokens=7924 remaining_requests=838
+probe_rpm_sustained-007 ok 414 414 remaining_tokens=7924 remaining_requests=837
+probe_rpm_sustained-008 ok 533 533 remaining_tokens=7924 remaining_requests=836
+probe_rpm_sustained-009 ok 252 252 remaining_tokens=7924 remaining_requests=835
+probe_rpm_sustained-010 ok 209 209 remaining_tokens=7924 remaining_requests=834
+probe_rpm_sustained-011 ok 371 371 remaining_tokens=7924 remaining_requests=833
+probe_rpm_sustained-012 ok 369 369 remaining_tokens=7924 remaining_requests=832
+probe_rpm_sustained-013 ok 359 359 remaining_tokens=7924 remaining_requests=831
+probe_rpm_sustained-014 ok 101 101 remaining_tokens=7924 remaining_requests=830
+probe_rpm_sustained-015 ok 1277 1277 remaining_tokens=7924 remaining_requests=829
+probe_rpm_sustained-016 ok 1528 1528 remaining_tokens=7924 remaining_requests=828
+probe_rpm_sustained-017 ok 321 321 remaining_tokens=7924 remaining_requests=827
+probe_rpm_sustained-018 ok 339 339 remaining_tokens=7924 remaining_requests=826
+probe_rpm_sustained-019 ok 387 387 remaining_tokens=7924 remaining_requests=825
+probe_rpm_sustained-020 ok 251 251 remaining_tokens=7924 remaining_requests=824
+probe_rpm_sustained-021 ok 380 380 remaining_tokens=7924 remaining_requests=823
+probe_rpm_sustained-022 ok 218 219 remaining_tokens=7924 remaining_requests=822
+probe_rpm_sustained-023 ok 680 681 remaining_tokens=7924 remaining_requests=821
+probe_rpm_sustained-024 ok 98 98 remaining_tokens=7924 remaining_requests=820
+probe_rpm_sustained-025 ok 204 204 remaining_tokens=7924 remaining_requests=819
+probe_rpm_sustained-026 ok 101 101 remaining_tokens=7924 remaining_requests=818
+probe_rpm_sustained-027 ok 368 368 remaining_tokens=7924 remaining_requests=817
+probe_rpm_sustained-028 ok 334 334 remaining_tokens=7924 remaining_requests=816
+probe_rpm_sustained-029 ok 366 366 remaining_tokens=7924 remaining_requests=815
+probe_rpm_sustained-030 rate_limited None 47 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-031 ok 370 371 remaining_tokens=7924 remaining_requests=814
+probe_rpm_sustained-032 rate_limited None 49 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-033 ok 207 207 remaining_tokens=7924 remaining_requests=813
+probe_rpm_sustained-034 rate_limited None 48 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-035 ok 931 931 remaining_tokens=7924 remaining_requests=812
+probe_rpm_sustained-036 rate_limited None 44 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-037 ok 416 416 remaining_tokens=7924 remaining_requests=811
+probe_rpm_sustained-038 rate_limited None 48 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-039 ok 339 339 remaining_tokens=7924 remaining_requests=810
+probe_rpm_sustained-040 rate_limited None 46 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-041 ok 335 335 remaining_tokens=7924 remaining_requests=809
+probe_rpm_sustained-042 rate_limited None 56 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-043 ok 452 452 remaining_tokens=7924 remaining_requests=808
+probe_rpm_sustained-044 rate_limited None 47 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-045 ok 307 308 remaining_tokens=7924 remaining_requests=807
+probe_rpm_sustained-046 rate_limited None 45 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-047 ok 417 417 remaining_tokens=7924 remaining_requests=806
+probe_rpm_sustained-048 rate_limited None 46 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-049 ok 437 437 remaining_tokens=7924 remaining_requests=805
+probe_rpm_sustained-050 rate_limited None 45 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-051 ok 105 105 remaining_tokens=7924 remaining_requests=804
+probe_rpm_sustained-052 rate_limited None 44 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-053 ok 361 362 remaining_tokens=7924 remaining_requests=803
+probe_rpm_sustained-054 rate_limited None 64 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-055 ok 335 335 remaining_tokens=7924 remaining_requests=802
+probe_rpm_sustained-056 rate_limited None 45 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-057 ok 418 418 remaining_tokens=7924 remaining_requests=801
+probe_rpm_sustained-058 rate_limited None 43 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-059 ok 418 418 remaining_tokens=7924 remaining_requests=800
+probe_rpm_sustained-060 rate_limited None 46 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-061 ok 336 336 remaining_tokens=7924 remaining_requests=799
+probe_rpm_sustained-062 rate_limited None 48 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-063 ok 418 418 remaining_tokens=7924 remaining_requests=798
+probe_rpm_sustained-064 rate_limited None 47 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-065 ok 339 339 remaining_tokens=7924 remaining_requests=797
+probe_rpm_sustained-066 rate_limited None 42 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-067 ok 205 205 remaining_tokens=7924 remaining_requests=796
+probe_rpm_sustained-068 rate_limited None 43 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-069 ok 367 367 remaining_tokens=7924 remaining_requests=795
+probe_rpm_sustained-070 rate_limited None 45 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-071 ok 334 334 remaining_tokens=7924 remaining_requests=794
+probe_rpm_sustained-072 rate_limited None 53 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm_sustained-073 ok 209 209 remaining_tokens=7924 remaining_requests=793
+probe_rpm_sustained-074 rate_limited None 45 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_tpm_flood-000 ok 582 582 remaining_tokens=5224 remaining_requests=792
+probe_tpm_flood-001 rate_limited None 115 retry_after=3.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_tpm_flood-002 rate_limited None 115 retry_after=3.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_tpm_flood-003 rate_limited None 114 retry_after=3.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_tpm_flood-004 rate_limited None 114 retry_after=3.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_tpm_flood-005 rate_limited None 113 retry_after=3.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_tpm_flood-006 ok 704 704 remaining_tokens=5224 remaining_requests=792
+probe_tpm_flood-007 rate_limited None 113 retry_after=3.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_recovery-000 ok 92 92 remaining_tokens=2714 remaining_requests=790
+real_burst 8 {'ok': 8, 'rate_limited': 0, 'timeout': 0, 'error': 0}
+{'ttft_mu': -0.6563091090626265, 'ttft_sigma': 0.36878234675075977, 'tokens_per_s': 1425.0, 'reasoning_tokens': 20, 'fail_rate': 0.0, 'slow_rate': 0.01639344262295082, 'n_calls': 61}
+Error handling request from 127.0.0.1
+Traceback (most recent call last):
+  File "C:\Users\tiwar\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\web_protocol.py", line 575, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tiwar\AppData\Local\Programs\Python\Python313\Lib\site-packages\aiohttp\web_app.py", line 559, in _handle
+    return await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\tiwar\vaa\standin.py", line 40, in completions
+    model, now = body["model"], time.monotonic()
+                 ~~~~^^^^^^^^^
+KeyError: 'model'

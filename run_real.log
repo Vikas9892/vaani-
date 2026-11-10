@@ -1,0 +1,57 @@
+probe_rpm-000 ok 468 468 remaining_tokens=7251 remaining_requests=988
+probe_rpm-001 ok 475 475 remaining_tokens=6111 remaining_requests=982
+probe_rpm-002 ok 433 433 remaining_tokens=7924 remaining_requests=993
+probe_rpm-003 ok 399 399 remaining_tokens=7848 remaining_requests=993
+probe_rpm-004 ok 257 257 remaining_tokens=7555 remaining_requests=989
+probe_rpm-005 ok 461 461 remaining_tokens=7555 remaining_requests=989
+probe_rpm-006 rate_limited None 221 retry_after=2.0 msg={"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b` in organization `org_REDACTED` service tier `on_dem
+probe_rpm-007 ok 263 263 remaining_tokens=7555 remaining_requests=989
+probe_rpm-008 ok 536 536 remaining_tokens=6339 remaining_requests=980
+probe_rpm-009 ok 476 476 remaining_tokens=6567 remaining_requests=984
+probe_rpm-010 ok 536 536 remaining_tokens=6795 remaining_requests=984
+probe_rpm-011 ok 266 266 remaining_tokens=7251 remaining_requests=988
+probe_rpm-012 ok 511 511 remaining_tokens=7707 remaining_requests=991
+probe_rpm-013 ok 537 537 remaining_tokens=5275 remaining_requests=984
+probe_rpm-014 ok 497 497 remaining_tokens=7251 remaining_requests=988
+probe_rpm-015 ok 526 526 remaining_tokens=7251 remaining_requests=988
+probe_rpm-016 ok 275 275 remaining_tokens=6111 remaining_requests=982
+probe_rpm-017 ok 574 574 remaining_tokens=7251 remaining_requests=988
+probe_rpm-018 ok 273 273 remaining_tokens=6795 remaining_requests=986
+probe_rpm-019 ok 525 525 remaining_tokens=7555 remaining_requests=988
+probe_rpm-020 ok 247 247 remaining_tokens=7782 remaining_requests=991
+probe_rpm-021 ok 261 261 remaining_tokens=6795 remaining_requests=984
+probe_rpm-022 ok 279 279 remaining_tokens=5883 remaining_requests=974
+probe_rpm-023 ok 591 591 remaining_tokens=6111 remaining_requests=975
+probe_rpm-024 ok 463 463 remaining_tokens=6567 remaining_requests=984
+probe_rpm-025 ok 618 618 remaining_tokens=7555 remaining_requests=989
+probe_rpm-026 ok 522 522 remaining_tokens=7251 remaining_requests=988
+probe_rpm-027 ok 506 506 remaining_tokens=5503 remaining_requests=978
+probe_rpm-028 ok 470 470 remaining_tokens=6415 remaining_requests=984
+probe_rpm-029 ok 583 583 remaining_tokens=5883 remaining_requests=973
+probe_rpm-030 ok 525 525 remaining_tokens=7251 remaining_requests=988
+probe_rpm-031 ok 497 497 remaining_tokens=6415 remaining_requests=982
+probe_rpm-032 ok 623 623 remaining_tokens=7251 remaining_requests=988
+probe_rpm-033 ok 475 475 remaining_tokens=5883 remaining_requests=984
+probe_rpm-034 ok 491 491 remaining_tokens=7555 remaining_requests=988
+probe_rpm-035 ok 511 511 remaining_tokens=7631 remaining_requests=989
+probe_rpm-036 ok 499 499 remaining_tokens=6567 remaining_requests=984
+probe_rpm-037 ok 493 493 remaining_tokens=7251 remaining_requests=988
+probe_rpm-038 ok 260 260 remaining_tokens=7251 remaining_requests=988
+probe_rpm-039 ok 578 578 remaining_tokens=6415 remaining_requests=982
+probe_tpm-000 ok 644 647 remaining_tokens=2775 remaining_requests=946
+probe_tpm-001 ok 466 470 remaining_tokens=2782 remaining_requests=945
+probe_tpm-002 ok 1003 1009 remaining_tokens=6036 remaining_requests=952
+probe_tpm-003 ok 535 536 remaining_tokens=3696 remaining_requests=947
+probe_tpm-004 ok 581 582 remaining_tokens=6527 remaining_requests=952
+probe_tpm-005 ok 1046 1048 remaining_tokens=6561 remaining_requests=952
+probe_tpm-006 ok 493 494 remaining_tokens=6554 remaining_requests=952
+probe_tpm-007 ok 674 676 remaining_tokens=4651 remaining_requests=952
+probe_tpm-008 ok 614 615 remaining_tokens=7018 remaining_requests=953
+probe_tpm-009 ok 555 558 remaining_tokens=6063 remaining_requests=952
+probe_tpm-010 ok 457 459 remaining_tokens=7509 remaining_requests=954
+probe_tpm-011 ok 344 345 remaining_tokens=3730 remaining_requests=948
+probe_recovery-000 ok 443 443 remaining_tokens=2876 remaining_requests=942
+120w-k4-bm25 {'correct': 11, 'wrong': 3, 'refused_correctly': 6, 'refused_wrongly': 2}
+250w-k4-bm25 {'correct': 9, 'wrong': 4, 'refused_correctly': 6, 'refused_wrongly': 3}
+120w-k4-rerank {'correct': 10, 'wrong': 2, 'refused_correctly': 6, 'refused_wrongly': 4}
+real_burst 8 {'ok': 4, 'rate_limited': 0, 'timeout': 4, 'error': 0}
