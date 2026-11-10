@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+papers/
+The_Relay_Assignment_Brief.pdf
+.env
