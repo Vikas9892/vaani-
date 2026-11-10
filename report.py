@@ -4,7 +4,7 @@ from datetime import datetime
 
 import numpy as np
 
-# shortcut: Groq on-demand list prices in $/1M tokens (in, out), checked by hand; update if Groq changes them.
+# shortcut: Groq on-demand list prices in $/1M tokens (in, out) used for the cost column; update if Groq changes them.
 PRICE = {"openai/gpt-oss-120b": (0.15, 0.60), "openai/gpt-oss-20b": (0.075, 0.30), "": (0.15, 0.60)}
 
 rows = list(csv.DictReader(open("results.csv", encoding="utf-8")))

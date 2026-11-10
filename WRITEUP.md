@@ -1,6 +1,6 @@
 # The Relay — write-up
 
-Code: `pipeline.py` `llm.py` `library.py` `standin.py` `run.py` · raw: `results.csv` (1,639 rows: 219 real, 1,420 stand-in), `answers.jsonl`, `calls.jsonl` · all tables: `python report.py`.
+Code: `pipeline.py` `llm.py` `library.py` `standin.py` `run.py` · raw: `results.csv` (1,639 rows: 219 real, 1,420 stand-in) · all tables: `python report.py`.
 
 ## 1 What I built and why
 
