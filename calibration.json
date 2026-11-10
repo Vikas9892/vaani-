@@ -1,0 +1,9 @@
+{
+  "ttft_mu": -0.6563091090626265,
+  "ttft_sigma": 0.36878234675075977,
+  "tokens_per_s": 1425.0,
+  "reasoning_tokens": 20,
+  "fail_rate": 0.0,
+  "slow_rate": 0.01639344262295082,
+  "n_calls": 61
+}
