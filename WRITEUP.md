@@ -112,11 +112,13 @@ It's true and cited and doesn't guess. The second quote is an unreadable table f
 I used Claude Code. The full, unedited transcript is `transcript.txt` in this folder.
 
 **Prompts that mattered:**
+
 1. The brief + "Python, minimal code — what can be done in 5 lines shouldn't be done in 10 — follow skills.md, act like a senior engineer". This set the bar: the whole system, stand-in and runner included, is ~800 lines.
 2. "Continue with the project", after I stopped its first command and installed a minimal-code plugin.
 3. "Continue and fill everything", after a low-memory stop, once the real Groq runs were already safe in `results.csv`.
 
 **What it got wrong:**
+
 - Its citation checker silently turned correct answers into refusals, because gpt-oss writes `【C17】`. Caught by reading one raw draft.
 - Its grader failed 36 answers on ` ` spaces, and its first fix broke refusal grading. Caught by a test.
 - It ran two load tests on one port. Caught from an impossible 1,959 s duration; the rows were quarantined and rerun.
@@ -124,5 +126,6 @@ I used Claude Code. The full, unedited transcript is `transcript.txt` in this fo
 **Where I overruled it:** I rejected its very first move, one big multi-purpose shell command, and put a minimal-code plugin in front of it before letting it continue. Later I overrode its default commit attribution so I'm the only contributor, with plain commit messages.
 
 **Distinctly mine:**
+
 - **The constraints:** minimal code, Python, and staying inside one free account, so I spent the scarce real budget on probes and quality runs and pushed load onto the stand-in.
 - **The judgment calls:** the 8 s patience assumption; choosing 120/4/no re-rank on tokens-as-throughput grounds; keeping the bad cold-index and overlapping-run data visible instead of deleting it.
