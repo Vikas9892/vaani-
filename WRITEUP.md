@@ -105,12 +105,24 @@ It's true and cited and doesn't guess. The second quote is an unreadable table f
 
 ## Your feedback on Vaani
 
-> **[DRAFT — rewrite in your own words]** What stood out: a sharp focus (voice agents for Indian calling), with concrete claims (~450 ms p90, call screening); "Teacher AI" showing prompt diffs before saving is thoughtful. What confused me: "voice AI harness" and "dial only inside the window" are never explained, the page says both "Sub-500ms" and "~450 ms p90", and the stat counters loaded as "0M+ / 0.0% / <0ms". One change: show one measured number per claim (and how it was measured) next to a 20-second audio sample above the fold.
+**Stood out:** a sharp focus (voice agents for Indian calling) with concrete claims, ~450 ms p90 latency and call screening, which is a real problem. "Teacher AI" showing prompt diffs before saving is the most thoughtful thing on the page. **Confused me:** "voice AI harness" and "dial only inside the window" are never explained, the page says both "Sub-500ms" and "~450 ms p90", and the stat counters first loaded as "0M+ / 0.0% / <0ms". Having just measured p50 vs p95 myself, I wanted to know which percentile and measured how. **One change:** put one measured number per claim, with how it was measured, next to a 20-second audio sample above the fold.
 
 ## How I worked with the assistant
 
-> **[YOU: attach the raw `/export` transcript, unedited.]**
+I used Claude Code. The full, unedited transcript is `transcript.txt` in this folder.
 
-**Prompts that mattered:** (1) the brief + "Python, minimal code, follow skills.md, senior engineer"; (2) "continue with the project" after installing the ponytail plugin, which kept the code lean; (3) "continue and fill everything" after the low-memory stop. **What it got wrong:** its citation checker refused correct answers because gpt-oss writes `【C17】` (caught by reading a raw draft); its grader failed 36 answers on ` ` spaces (fix verified by a test); it ran two load tests on one port (caught from an impossible 1,959 s duration; rows quarantined and rerun).
+**Prompts that mattered:**
+1. The brief + "Python, minimal code — what can be done in 5 lines shouldn't be done in 10 — follow skills.md, act like a senior engineer". This set the bar: the whole system, stand-in and runner included, is ~800 lines.
+2. "Continue with the project", after I stopped its first command and installed a minimal-code plugin.
+3. "Continue and fill everything", after a low-memory stop, once the real Groq runs were already safe in `results.csv`.
 
-**Where I overruled it:** **[YOU]** · **What's distinctly mine:** **[YOU]**
+**What it got wrong:**
+- Its citation checker silently turned correct answers into refusals, because gpt-oss writes `【C17】`. Caught by reading one raw draft.
+- Its grader failed 36 answers on ` ` spaces, and its first fix broke refusal grading. Caught by a test.
+- It ran two load tests on one port. Caught from an impossible 1,959 s duration; the rows were quarantined and rerun.
+
+**Where I overruled it:** I rejected its very first move, one big multi-purpose shell command, and put a minimal-code plugin in front of it before letting it continue. Later I overrode its default commit attribution so I'm the only contributor, with plain commit messages.
+
+**Distinctly mine:**
+- **The constraints:** minimal code, Python, and staying inside one free account, so I spent the scarce real budget on probes and quality runs and pushed load onto the stand-in.
+- **The judgment calls:** the 8 s patience assumption; choosing 120/4/no re-rank on tokens-as-throughput grounds; keeping the bad cold-index and overlapping-run data visible instead of deleting it.
